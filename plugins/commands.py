@@ -271,7 +271,7 @@ async def set_heroku_var(client, message):
             return
     else:
         print("No env variable provided")  # Debugging: No variable provided
-        await m.edit("<b>You haven't provided any value for env,\nYou should follow the correct format.\nExample: <code>/env CHAT=-1020202020202</code></b>")
+        await m.edit("<b>You haven't provided any value for env,\nYou should follow the correct format.\nExample: <code>/env CHAT=-1002275994901</code></b>")
         return
 
     with suppress(MessageIdInvalid, MessageNotModified):
@@ -300,7 +300,7 @@ async def set_heroku_var(client, message):
                     return     
             
         else:
-            await m.edit("<b>You haven't provided any value for env,\nYou should follow the correct format.\nExample: <code>/env CHAT=-1020202020202</code></b>")
+            await m.edit("<b>You haven't provided any value for env,\nYou should follow the correct format.\nExample: <code>/env CHAT=-1002275994901</code></b>")
             await delete_messages([message, m])
             return
 
