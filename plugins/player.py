@@ -61,7 +61,7 @@ async def add_to_playlist(client, message):
             buttons = [
                 [
                     InlineKeyboardButton('🤖 Make Own Bot', url='https://github.com/ZeebFly/MusicPlayed'),
-                    InlineKeyboardButton('✅ Join Here', url='https://t.me/RuangZeeb'),
+                    InlineKeyboardButton('✅ Join Here', url='https://t.me/gwkaell'),
                 ]
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
