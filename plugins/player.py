@@ -60,7 +60,7 @@ async def add_to_playlist(client, message):
         if message.chat.id != Config.CHAT and message.chat.type != enums.ChatType.PRIVATE:
             buttons = [
                 [
-                    InlineKeyboardButton('🤖 Make Own Bot', url='https://github.com/ZeebFly/MusicPlayed'),
+                    InlineKeyboardButton('🤖 Make Own Bot', url='https://github.com/ziokull/MusicPlayed'),
                     InlineKeyboardButton('✅ Join Here', url='https://t.me/gwkaell'),
                 ]
             ]
