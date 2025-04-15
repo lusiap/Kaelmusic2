@@ -484,7 +484,7 @@ async def notforu(_, m: Message):
     k = await _.send_message(
         chat_id = m.chat.id,
         text = "<b>Sorry! You are not authorized ❌</b>",
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('Join Now ✅', url='https://t.me/ZeebSupport')]])
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('Join Now ✅', url='https://t.me/nyimakteam')]])
     )
     await delete_messages([m, k])
 
@@ -505,7 +505,7 @@ async def not_chat(_, m: Message):
         buttons = [
             [
                 InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/ZeebFly/MusicPlayer'),
-                InlineKeyboardButton('✅ Join Here', url='https://t.me/ZeebSupport'),
+                InlineKeyboardButton('✅ Join Here', url='https://t.me/nyimakteam'),
             ]
         ]
         await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/bisnuray/SmartVCPlayer) below.</b>", quote=False, disable_web_page_preview = True, reply_markup = InlineKeyboardMarkup(buttons))
