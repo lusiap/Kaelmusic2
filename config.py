@@ -26,8 +26,8 @@ class Config:
     SESSION = os.environ.get("SESSION_STRING", "BQGUyxEAf7EGxrNmjVIZQt3ChNtkht8FP_7ty9AjIIxOroJQC4Z-LDoYAca7qLXER8PQC_RzCdDEtf8JRJIOB2EkLFQVz3x8TtQadswSQIK4pl16nmztCv2fxoZ_hO7gSFEUgWgmgQXu3Y9daQBmHx0j1sME-3_qwo66ToVpmZjCfgYoA6VeHUqkh2DTdeiR92vwWQTbhwVG_Qsn7aM52AYeXtGNgWXa-r04pqAif-dfAUVHa9_G6n4ManpLv3ApJWwqgGCbG-BQX6k914WLliaWL78uta4-V9Cb07xVBrH3CKrSPAyaSOMaiEd1OWFKu-LSmbSWLY6y6a-3S1iUb2WPYJ_q6wAAAABNbyvxAA")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
-    LOG_GROUP=os.environ.get("LOG_GROUP", "")
+    CHAT = int(os.environ.get("CHAT", "-1002275994901"))
+    LOG_GROUP=os.environ.get("LOG_GROUP", "-1002632995944")
 
     #Cookies For Youtube Downloder
     YT_COOKIES_PATH = os.path.join(os.getcwd(), "ytcookies", "cookies.txt")
