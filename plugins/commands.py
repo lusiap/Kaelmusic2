@@ -239,7 +239,7 @@ async def get_logs(client, message):
 
     m = await message.reply("<b>Checking logs, please wait...</b>", quote=False)
     if os.path.exists("botlog.txt"):
-        markup = InlineKeyboardMarkup([[InlineKeyboardButton("Update Channel ✅", url="https://t.me/itsSmartDev")]])
+        markup = InlineKeyboardMarkup([[InlineKeyboardButton("Update Channel ✅", url="https://t.me/teamnyimakk")]])
         await message.reply_document('botlog.txt', caption="<b>Here are the Bot Logs</b>", reply_markup=markup)
         await m.delete()
     else:
